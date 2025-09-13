@@ -1,0 +1,10 @@
+[package]
+name = "libhelloworld"
+description = "This is where I make a project."
+authors = ["AzureDiamond"]
+
+[target]
+lib = true
+sources = ["src/**.cpp", "src/**.cc", "src/**.c"]
+
+[dependencies]
