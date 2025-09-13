@@ -6,5 +6,6 @@ authors = ["AzureDiamond"]
 [target]
 lib = true
 sources = ["src/**.cpp", "src/**.cc", "src/**.c"]
+headers = ["src/**.hpp", "src/**.h"]
 
 [dependencies]
